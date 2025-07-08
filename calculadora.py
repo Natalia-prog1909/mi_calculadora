@@ -22,6 +22,15 @@ if __name__=="__main__":
     print(multiplicar(4,2)) #8
     print(dividir(10,2)) #5.0
 
+
 def potencia(a: float, b: float)-> float:
     # calcula a elevado a la b.
     return a**b
+if __name__=="__main__":
+    print(potencia(4,2))#16
+
+def elevar_al_cubo (a: float, b: float)-> float:
+    # calcula a elevado al cubo b.
+    return a**3
+if __name__=="__main__":
+    print(elevar_al_cubo(8,3))#512
